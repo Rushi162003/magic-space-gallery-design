@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      
+
       {/* About Hero */}
       <section className="py-12 md:py-16 bg-accent/20">
         <div className="container">
@@ -17,12 +17,12 @@ const About = () => {
               We transform ordinary spaces into extraordinary experiences through innovative design.
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             <div className="rounded-lg overflow-hidden">
-              <img 
-                src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=1770&auto=format&fit=crop" 
-                alt="About Magic Space Interior" 
+              <img
+                src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=1770&auto=format&fit=crop"
+                alt="About Magic Space Interior"
                 className="w-full h-auto object-cover"
               />
             </div>
@@ -38,7 +38,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      
+
       {/* Our Founders */}
       <section className="py-12 md:py-16">
         <div className="container">
@@ -49,13 +49,13 @@ const About = () => {
               Meet the visionaries behind Magic Space Interior
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             <div className="flex flex-col items-center text-center">
               <div className="w-48 h-48 rounded-full overflow-hidden mb-6">
-                <img 
-                  src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=1770&auto=format&fit=crop" 
-                  alt="Rakesh Jagdale" 
+                <img
+                  src="rakesh.jpg"
+                  alt="Rakesh Jagdale"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -65,12 +65,12 @@ const About = () => {
                 With over 15 years of experience in interior design, Rakesh brings a wealth of knowledge and creative vision to every project. His passion for innovative design solutions and attention to detail has established Magic Space Interior as a leader in the industry.
               </p>
             </div>
-            
+
             <div className="flex flex-col items-center text-center">
               <div className="w-48 h-48 rounded-full overflow-hidden mb-6">
-                <img 
-                  src="https://images.unsplash.com/photo-1566492031773-4f4e44671857?q=80&w=1974&auto=format&fit=crop" 
-                  alt="Gajanan Wadgaonkar" 
+                <img
+                  src="gajanan.jpg"
+                  alt="Gajanan Wadgaonkar"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -83,7 +83,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      
+
       {/* Our Values */}
       <section className="py-12 md:py-16 bg-accent/30">
         <div className="container">
@@ -94,7 +94,7 @@ const About = () => {
               The principles that guide our work and relationships
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
@@ -130,7 +130,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      
+
       <div className="mt-auto">
         <Footer />
       </div>

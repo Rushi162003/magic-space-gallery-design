@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
-  
+
   return (
     <footer className="border-t py-12 bg-accent/20">
       <div className="container">
@@ -48,8 +48,9 @@ export function Footer() {
             <h4 className="font-serif text-lg font-medium mb-4">Contact Us</h4>
             <address className="not-italic text-sm text-muted-foreground space-y-2">
               <p>Pune, Maharashtra</p>
-              <p>Email: info@magicspaceinterior.com</p>
-              <p>Phone: +91 98765 43210</p>
+              <p>Email: mangeshjahdale58@gmail.com</p>
+              <p>Phone: +91 92849 74111</p>
+              <p>Phone: +91 97669 74736</p>
             </address>
           </div>
         </div>

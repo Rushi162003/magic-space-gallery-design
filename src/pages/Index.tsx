@@ -8,9 +8,9 @@ const Index = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      
+
       {/* Hero Section */}
-      <section className="py-16 md:py-24 relative overflow-hidden bg-center bg-cover" 
+      <section className="py-16 md:py-24 relative overflow-hidden bg-center bg-cover"
         style={{
           backgroundImage: "url('https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=1932&auto=format&fit=crop')",
           backgroundBlendMode: "overlay",
@@ -35,7 +35,7 @@ const Index = () => {
           </div>
         </div>
       </section>
-      
+
       {/* Featured Projects */}
       <section className="py-16 md:py-24">
         <div className="container">
@@ -46,13 +46,13 @@ const Index = () => {
               Explore some of our most innovative and inspiring interior design projects
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[1, 2, 3].map((item) => (
+            {['one', 'two', 'three'].map((item) => (
               <div key={item} className="group overflow-hidden rounded-lg border bg-card shadow-sm transition-all hover:shadow-md">
                 <div className="aspect-video overflow-hidden">
                   <img
-                    src={`https://images.unsplash.com/photo-151648311686${item}-4c69874266f7?q=80&w=1974&auto=format&fit=crop`}
+                    src={`${item}.jpg`}
                     alt={`Featured project ${item}`}
                     className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
                   />
@@ -67,7 +67,7 @@ const Index = () => {
               </div>
             ))}
           </div>
-          
+
           <div className="flex justify-center mt-12">
             <Button asChild variant="outline" size="lg">
               <Link to="/gallery">View All Projects</Link>
@@ -75,7 +75,7 @@ const Index = () => {
           </div>
         </div>
       </section>
-      
+
       {/* Services Section */}
       <section className="py-16 md:py-24 bg-accent/30">
         <div className="container">
@@ -86,7 +86,7 @@ const Index = () => {
               We offer comprehensive interior design services tailored to your needs
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12">
             {[
               {
@@ -125,7 +125,7 @@ const Index = () => {
           </div>
         </div>
       </section>
-      
+
       {/* CTA Section */}
       <section className="py-16 md:py-24 bg-primary text-primary-foreground">
         <div className="container">
@@ -140,7 +140,7 @@ const Index = () => {
           </div>
         </div>
       </section>
-      
+
       <Footer />
     </div>
   );
